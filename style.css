@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+    position: relative;
+}
+
+a.link{
+    color: #151517;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+a.link-sm{
+    color: #AF04FF;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+a.link-sm{
+    color: #AF04FF;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+a.link-s2{
+    color: #151517;
+    padding: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+a.link-s3{
+    color: #151517;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+button.btn-primary{
+    background-color: #AF04FF;
+    padding: 16px 50px;
+    border: none;
+    border-radius: 100px;
+    color:#F1F1F1;
+    font-size: 20px;
+    font-weight: 500;
+}
+button.btn-secondary{
+    background-color:transparent;
+    padding: 16px 30px;
+    border: 2px solid #AF04FF;
+    border-radius: 100px;
+    color:#2F2F2F;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+section.hero{
+    display: flex;
+    width: 110%;
+    height: 96vh;
+    justify-content: space-between;
+}
+
+.column-text-heading{
+    width: 50%;
+}
+
+.p-f{
+    color:#AF04FF;
+}
+
+h1.hero-heading{
+    font-size: 45px;
+    font-family: Poppins;
+    color: 2F2F2F;
+    
+}
+h3.hero-heading-d{
+    font-size: 24px;
+    font-family: Poppins;
+    color: 2F2F2F;
+    padding-top: 80px;
+}
+h4.hero-heading-c{
+    font-size: 18px;
+    color: #828282;
+    padding-top: 30px;
+}
+.text-p{
+    margin-top: 30px;
+}
+.img{
+    justify-content: space-between;
+}
+
+.typography{
+    margin-top: 100px;
+}
+
+.row-col-3{
+    width: 100%;
+    height: 30%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.col{
+    display: flex;
+    margin-top: 20%;
+}
+
+.col h3{
+    font-style: normal;
+    font-weight: 610;
+    font-size: 72px;
+    line-height: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    /* identical to box height, or 86% */
+
+
+    color: #68ECDC; 
+}
+.col-2 h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 62px;
+    margin-top: 14%;
+    margin-left: 30px;
+    /* identical to box height, or 129% */
+}
+
+.col h2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 50px;
+    display: flex ;
+    /* identical to box height, or 150% */
+
+
+    color: #828282;
+
+}
+
+.text-typography-1{
+    display: flex;
+    margin-left: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+
+    color: #828282;
+}
+.text-typography-2{
+    display: flex;
+    margin-left: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+
+    color: #828282;
+}
+.typo-g h1{
+  
+    font-style: normal;
+    font-weight:20px;
+    font-size: 48px;
+    /* identical to box height, or 129% */
+
+
+    color: #151517;
+}
+.typo h2{
+    margin-left: 100px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 45px;
+    /* or 187% */
+    
+
+
+    color: #000000;
+}
+
+.project h1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    position: relative;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 62px;
+    /* identical to box height, or 129% */
+
+
+    color: #151517;
+}
+
+.selected{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    height: 92px;
+    position: relative;
+}
+
+.ui-project{
+    margin-top: 50px;
+    
+}
+
+.text-ui h1{
+    
+    margin-left: 100px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* #1C1C1C */
+
+    color: #1C1C1C;
+}
+.text-ui h2{
+    margin-left: 100px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #151517;
+
+}
+.text-ui-2 h1{
+    
+    margin-left: 70px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* #1C1C1C */
+
+    color: #1C1C1C;
+}
+.text-ui-2 h2{
+    margin-left: 70px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #151517;
+
+}
+
+.col-row-2{
+    width: 100%;
+    height: 30%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.website-1{
+    padding-top: 50px;
+}
+
+.website-1 h3{
+    font-weight: 600;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+
+    color: #151517;
+
+
+}
+.website-2 h3{
+    font-weight: 600;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+
+    color: #151517;
+}
+
+
+
+.skill h1{
+    margin-top: 100px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 62px;
+    /* identical to box height, or 129% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #151517;
+
+}
+
+.col-row-4{
+    width: 100%;
+    height: 20%;
+    margin-top: 5%;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.col-1 h1{
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    text-align: center;
+
+    /* #828282 */
+
+    color: #828282;
+}
+.col-2 h1{
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    text-align: center;
+
+    /* #828282 */
+
+    color: #828282;
+}
+.col-3 h1{
+    font-weight: normal;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    text-align: center;
+
+    /* #828282 */
+
+    color: #828282;
+}
+.col-4 h1{
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    text-align: center;
+
+    /* #828282 */
+
+    color: #828282;
+}
+
+.hampir{
+    margin-top: 100px;
+}
+
+.website-2{
+    margin-top: 50px;
+}
+
+.footer-link{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.link-ft{
+    font-weight: 300;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 46px;
+    /* identical to box height, or 128% */
+
+    display: flex;
+    align-items: center;
+
+    /* #2F2F2F */
+
+    color: #2F2F2F;
+}
+
+.link-atas{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+
+    /* #2F2F2F */
+
+    color: #2F2F2F;
+
+}
+
+
+
